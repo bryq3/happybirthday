@@ -1,0 +1,55 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/halloween4" />
+    <TextView
+        android:id="@+id/happy"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Halloween"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFF3E0"
+        android:layout_margin="20dp" />
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/boo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOO!"
+        android:textSize="50sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFF3E0"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/happy"
+        android:layout_marginTop="30dp" />
+    <ImageView
+        android:src="@drawable/ghost"
+        android:id="@+id/ghost"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/boo" />
+    <TextView
+        android:id="@+id/andy"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="from Andy"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFF3E0"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        />
+</RelativeLayout>
